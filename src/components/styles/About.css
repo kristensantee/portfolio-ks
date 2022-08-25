@@ -1,0 +1,17 @@
+.containerAbout {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b9e6ff;
+    width: 70%;
+    justify-content: center;
+}
+
+.h1 {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pBody {
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
