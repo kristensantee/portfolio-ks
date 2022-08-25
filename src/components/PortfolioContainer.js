@@ -23,6 +23,8 @@ export default function PortfolioContainer() {
         }
     };
 
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
