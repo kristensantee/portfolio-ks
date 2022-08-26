@@ -5,6 +5,7 @@ import Portfolio from './components/pages/Portfolio'
 import Resume from './components/pages/Resume'
 import Contact from './components/pages/Contact'
 import NavBar from './components/pages/NavBar'
+import Footer from './components/pages/Footer'
 
 const App = () => (
     <Router>
@@ -15,6 +16,7 @@ const App = () => (
             <Route path='/resume' element={<Resume/>}/>
             <Route path='/contact' element={<Contact/>}/>
         </Routes>
+        <Footer/>
     </Router>
 )
 

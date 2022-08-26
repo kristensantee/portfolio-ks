@@ -1,3 +1,14 @@
 h1 {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.contactContainer {
+    justify-content: center;
+    margin: auto;
+}
+
+.formHandler {
+    height: 1000px;
 }
