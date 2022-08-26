@@ -3,22 +3,43 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
+import curarte from '../../images/curARTe.png'
+import outbound from '../../images/outbound.png'
+import staticportfolio from '../../images/staticportfolio.png'
+import weatherapp from '../../images/weatherapp.png'
+import regex from '../../images/regex.png'
+import pwa from '../../images/pwa.png'
 
 const images = [
     {
-      url: '/static/images/buttons/breakfast.jpg',
+      url: outbound,
       title: 'Outbound Gear Exchange',
       width: '40%',
     },
     {
-      url: '/static/images/buttons/burgers.jpg',
+      url: curarte,
       title: 'curARTe',
       width: '30%',
     },
     {
-      url: '/static/images/buttons/camera.jpg',
+      url: staticportfolio,
       title: 'Static Portfolio',
       width: '30%',
+    },
+    {
+        url: weatherapp,
+        title: 'Weather App',
+        width: '40%',
+    },
+    {
+        url: regex,
+        title: 'regex writeup',
+        width: '30%',
+    },
+    {
+        url: pwa,
+        title: 'Progressive Web App',
+        width: '30%',
     },
   ];
   
