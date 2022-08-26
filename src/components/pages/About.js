@@ -1,9 +1,12 @@
 import React from 'react'
 import '../styles/About.css'
+import Avatar from '@mui/material/Avatar'
+import avatar from '../../images/avatar.jpg'
 
 export default function About() {
     return (
         <div className="">
+            <Avatar alt='Kristen Santee' src={avatar} sx={{ width:100, height:100 }}/>
             <div className="containerAbout">
                 <h1 className="h1">About Me</h1>
                 <p className="pBody">
