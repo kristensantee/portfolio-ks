@@ -12,14 +12,22 @@ h1 {
     margin: auto;
 }
 
-.contactContainer {
+.formContainer {
     display: block;
     flex-direction: column;
     justify-content: center;
-    margin: 200px;
+    margin: auto;
     align-items: center;
 }
 
-.formHandler {
-    height: 1000px;
+.button {
+    margin-top: 20px;
+    background-color: var(--lightCoral);
+    border-color: var(--melon);
+    align-items: right;
 }
+
+.button:hover{
+    background-color: var(--melon);
+}
+
