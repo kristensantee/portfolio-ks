@@ -19,7 +19,7 @@ The requirements for this assignment were to build a personal website using Reac
 
 ## Installation
 A link to the deployed site can be found [here](https://kristensantee.github.io/portfolio-ks/). A screenshot of the site is shown below: 
-![screenshot of deployed site for React Portfolio]()
+![screenshot of deployed site for React Portfolio](./src/images/screenshot.png)
 
 ## Usage
 This application makes use of React and also features the Material UI library. Please install all required dependencies if the code is cloned. Otherwise, the page can be accessed through GitHub Pages for easy viewing. 
