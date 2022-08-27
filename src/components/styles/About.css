@@ -1,3 +1,11 @@
+:root {
+    --deepTaupe: #7e6c6c;
+    --lightCoral: #f87575;
+    --melon: #ffa9a3;
+    --uranianBlue: #b9e6ff;
+    --cornflowerBlue: #5c95ff;
+}
+
 .containerAbout {
     font-family: 'Poppins', sans-serif;
     background-color: #b9e6ff;
@@ -14,4 +22,36 @@
 .pBody {
     padding: 0px 20px 20px 20px;
     text-align: justify;
+}
+
+.accordionBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.accordion {
+    width: 75%;
+    justify-content: center;
+}
+
+#panel1a-header {
+    background-color: #f87575;
+    color: antiquewhite;
+    margin: auto;
+}
+#panel2a-header {
+    background-color: #f87575;
+    color: antiquewhite;
+}
+    #panel3a-header {
+    background-color: #f87575;
+    color: antiquewhite;
+}
+
+.typography {
+    background-color: #ffa9a3;
+    color: var(--deepTaupe);
 }

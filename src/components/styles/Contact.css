@@ -1,12 +1,23 @@
+:root {
+    --deepTaupe: #7e6c6c;
+    --lightCoral: #f87575;
+    --melon: #ffa9a3;
+    --uranianBlue: #b9e6ff;
+    --cornflowerBlue: #5c95ff;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    align-items: center;
     margin: auto;
 }
 
 .contactContainer {
+    display: block;
+    flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin: 200px;
+    align-items: center;
 }
 
 .formHandler {

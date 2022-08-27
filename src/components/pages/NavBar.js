@@ -23,6 +23,7 @@ function NavBar() {
                         setValue(newValue);
                     }}
                     >
+                <h1>Kristen Santee</h1>
                 <BottomNavigationAction 
                     label="About Me"
                     component={Link}

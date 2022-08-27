@@ -8,13 +8,15 @@ import '../styles/Footer.css'
 export default function Footer() {
     return (
         <footer className='footer'>
-            <a>
-            
-            </a>
-            <p>{<ScienceIcon/>} Made with React by Kristen {<PsychologyIcon/>}</p>
-            <a>
-
-            </a>
+            <p>
+                <a href="https://github.com/kristensantee" >
+                <GitHubIcon className="icon"/>
+                </a>
+                {<ScienceIcon/>} Made with React by Kristen {<PsychologyIcon/>}
+                <a href="https://www.linkedin.com/in/kristen-santee-aba1a631/">
+                <LinkedInIcon className="icon"/>
+                </a>
+            </p>
         </footer>
     )
 }
