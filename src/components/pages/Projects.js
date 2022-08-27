@@ -6,32 +6,35 @@ import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 
-export default function Project(props) {
+export default function Projects(props) {
     const cardStyle = {
-        width: '18rem'
+        width: '20rem'
     }
 
     return (
         <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt="outbound gear exchange screenshot"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image={props.image}
         style={cardStyle}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Project Name: {props.name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          About this project: {props.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <a href={props.link}>
+            <Button size="small">Deployed Site</Button>
+        </a>
+        <a href={props.github}>
+            <Button size="small">Github Development</Button>
+        </a>
       </CardActions>
     </Card>
     )

@@ -18,7 +18,7 @@ The requirements for this assignment were to build a personal website using Reac
 6. [Questions](#questions)
 
 ## Installation
-A link to the deployed site can be found [here](). A screenshot of the site is shown below: 
+A link to the deployed site can be found [here](https://kristensantee.github.io/portfolio-ks/). A screenshot of the site is shown below: 
 ![screenshot of deployed site for React Portfolio]()
 
 ## Usage
